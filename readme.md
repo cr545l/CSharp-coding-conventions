@@ -13,7 +13,7 @@
 ( ) 의 내부는 항상 공백 추가<br>
 주석은 한칸 띄우고(공백) 내용 입력<br>
 
-> ## 클래스, 함수, 프로퍼티, 델리게이트 `[파스칼 표기법]`<br>
+> ## 클래스, 함수, 프로퍼티, 델리게이트 `파스칼 표기법`<br>
 > 함수나 클래스 정의 간에 빈 줄 추가<br>
 >
 > ```
@@ -63,7 +63,7 @@
 >> private List<int> _currentGUIPopups;
 >> ```
 >
->> ### private, protected `[카멜 표기법]`
+>> ### private, protected `카멜 표기법`
 >>
 >> public보다 하단에 선언<br>
 >> 언더스코프 ( _ )를 접두어<br>
@@ -75,7 +75,7 @@
 >> private int _bar;
 >> ```
 >
->> ### const `[전체 대문자 + 스네이크 표기법]`
+>> ### const `전체 대문자 + 스네이크 표기법`
 >>
 >> 클래스 최상단에 선언
 >> 보편적으로 public 사용.<br>
@@ -85,7 +85,7 @@
 >> public static readonly int STATIC_READONLY_INDEX = 0;
 >> ```
 >
->> ### public `[카멜 표기법]`
+>> ### public `카멜 표기법`
 >>
 >> private보다 상단에 선언<br>
 >> struct field, delegate, event, const, static readonly같은 타입이 아니면 사용을 지양<br>
@@ -95,7 +95,7 @@
 >> private event Action eventInvoke;
 >> ```
 >
->> ### 지역변수, 파라미터 `[카멜 표기법]`
+>> ### 지역변수, 파라미터 `카멜 표기법`
 >>
 >> 언더스코프를 ( _ )를 사용하지 않고 표기
 
