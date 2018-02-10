@@ -21,15 +21,15 @@
 > {
 > 	public delegete void Delegate( int foo, bool bar );
 >
->	public int Age { { get { return true; } } }
+> 	public int Age { { get { return true; } } }
 >
->	private void Function( int index )
->	{
->		for( int i = 0; i < count; i++ )
->		{
->			// ~
->		}
->	}
+> 	private void Function( int index )
+> 	{
+> 		for( int i = 0; i < count; i++ )
+> 		{
+> 			// ~
+> 		}
+> 	}
 > }
 > ```
 > ### 예외
