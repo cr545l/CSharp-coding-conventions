@@ -280,14 +280,6 @@ for( int i = 0; i < max; i++ )
 >```csharp
 >Action action = () =>{};
 >```
->
->길어지는 익명함수의 경우 함수 선언부에 중괄호를 시작
->
->```csharp
->Action action = () =>{
->    // ~
->};
->```
 
 ***
 
